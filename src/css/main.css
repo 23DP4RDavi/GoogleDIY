@@ -74,26 +74,23 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: auto;
-    padding: 10px 20px;
     background: gainsboro;
-    display: flex;
+    padding: 10px 15px;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
     flex-wrap: wrap;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .Lat {
-    font-size: 14px;
+    font-size: 15px;
     margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 .linksA, .linksB {
     display: flex;
-    gap: 15px;
+    gap: 15px; 
 }
-
 .linksA a, .linksB a {
     text-decoration: none;
     color: #333;
