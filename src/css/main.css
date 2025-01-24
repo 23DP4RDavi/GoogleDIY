@@ -75,16 +75,21 @@ body {
     bottom: 0;
     width: 100%;
     background: gainsboro;
-    padding: 10px 15px;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .Lat {
     font-size: 15px;
-    margin-right: 20px;
-    margin-bottom: 10px;
+    text-align: left;
+}
+
+.linksFoot {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .linksA, .linksB {
